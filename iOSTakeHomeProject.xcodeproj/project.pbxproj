@@ -11,6 +11,8 @@
 		F8F0DC4F28BB7CDD001C34EC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F0DC4E28BB7CDD001C34EC /* ContentView.swift */; };
 		F8F0DC5128BB7CE0001C34EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8F0DC5028BB7CE0001C34EC /* Assets.xcassets */; };
 		F8F0DC5428BB7CE0001C34EC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8F0DC5328BB7CE0001C34EC /* Preview Assets.xcassets */; };
+		F8F0DC5C28BB7D46001C34EC /* Symbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F0DC5B28BB7D46001C34EC /* Symbols.swift */; };
+		F8F0DC5E28BB7F3B001C34EC /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F0DC5D28BB7F3B001C34EC /* Theme.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		F8F0DC4E28BB7CDD001C34EC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F8F0DC5028BB7CE0001C34EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F8F0DC5328BB7CE0001C34EC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F8F0DC5B28BB7D46001C34EC /* Symbols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Symbols.swift; sourceTree = "<group>"; };
+		F8F0DC5D28BB7F3B001C34EC /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,7 @@
 			children = (
 				F8F0DC4C28BB7CDD001C34EC /* iOSTakeHomeProjectApp.swift */,
 				F8F0DC4E28BB7CDD001C34EC /* ContentView.swift */,
+				F8F0DC5A28BB7CF3001C34EC /* Resources */,
 				F8F0DC5028BB7CE0001C34EC /* Assets.xcassets */,
 				F8F0DC5228BB7CE0001C34EC /* Preview Content */,
 			);
@@ -65,6 +70,15 @@
 				F8F0DC5328BB7CE0001C34EC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F8F0DC5A28BB7CF3001C34EC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F8F0DC5B28BB7D46001C34EC /* Symbols.swift */,
+				F8F0DC5D28BB7F3B001C34EC /* Theme.swift */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +151,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8F0DC5C28BB7D46001C34EC /* Symbols.swift in Sources */,
+				F8F0DC5E28BB7F3B001C34EC /* Theme.swift in Sources */,
 				F8F0DC4F28BB7CDD001C34EC /* ContentView.swift in Sources */,
 				F8F0DC4D28BB7CDD001C34EC /* iOSTakeHomeProjectApp.swift in Sources */,
 			);
