@@ -55,9 +55,11 @@
 		F8F0DC4B28BB7CDD001C34EC /* iOSTakeHomeProject */ = {
 			isa = PBXGroup;
 			children = (
+				F8F0DC6028BB8254001C34EC /* Features */,
+				F8F0DC5F28BB8248001C34EC /* Base */,
+				F8F0DC5A28BB7CF3001C34EC /* Resources */,
 				F8F0DC4C28BB7CDD001C34EC /* iOSTakeHomeProjectApp.swift */,
 				F8F0DC4E28BB7CDD001C34EC /* ContentView.swift */,
-				F8F0DC5A28BB7CF3001C34EC /* Resources */,
 				F8F0DC5028BB7CE0001C34EC /* Assets.xcassets */,
 				F8F0DC5228BB7CE0001C34EC /* Preview Content */,
 			);
@@ -79,6 +81,132 @@
 				F8F0DC5D28BB7F3B001C34EC /* Theme.swift */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		F8F0DC5F28BB8248001C34EC /* Base */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		F8F0DC6028BB8254001C34EC /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				F8F0DC6428BB827A001C34EC /* Settings */,
+				F8F0DC6328BB8271001C34EC /* Detail */,
+				F8F0DC6128BB825E001C34EC /* Create */,
+				F8F0DC6228BB8267001C34EC /* People */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		F8F0DC6128BB825E001C34EC /* Create */ = {
+			isa = PBXGroup;
+			children = (
+				F8F0DC6A28BB82DD001C34EC /* Model */,
+				F8F0DC6928BB82D4001C34EC /* View Models */,
+				F8F0DC6828BB82CE001C34EC /* Views */,
+			);
+			path = Create;
+			sourceTree = "<group>";
+		};
+		F8F0DC6228BB8267001C34EC /* People */ = {
+			isa = PBXGroup;
+			children = (
+				F8F0DC6628BB8292001C34EC /* Model */,
+				F8F0DC6528BB8288001C34EC /* View Models */,
+				F8F0DC6728BB829A001C34EC /* Views */,
+			);
+			path = People;
+			sourceTree = "<group>";
+		};
+		F8F0DC6328BB8271001C34EC /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				F8F0DC6D28BB82F6001C34EC /* Model */,
+				F8F0DC6C28BB82EC001C34EC /* View Models */,
+				F8F0DC6B28BB82E5001C34EC /* Views */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		F8F0DC6428BB827A001C34EC /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				F8F0DC6E28BB82FE001C34EC /* Views */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		F8F0DC6528BB8288001C34EC /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		F8F0DC6628BB8292001C34EC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F8F0DC6728BB829A001C34EC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F8F0DC6828BB82CE001C34EC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F8F0DC6928BB82D4001C34EC /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		F8F0DC6A28BB82DD001C34EC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F8F0DC6B28BB82E5001C34EC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F8F0DC6C28BB82EC001C34EC /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		F8F0DC6D28BB82F6001C34EC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F8F0DC6E28BB82FE001C34EC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
