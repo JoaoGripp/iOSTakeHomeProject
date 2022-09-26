@@ -11,6 +11,18 @@ struct ContentView: View {
     var body: some View {
         Text("Hello, world!")
             .padding()
+            .onAppear {
+                
+                print("👇 Users Response")
+                dump(
+                    try? StaticJSONMapper.decode(file: "UsersStaticData", type: UsersResponse.self)
+                )
+                
+                print("👇 Single User Response")
+                dump(
+                    try? StaticJSONMapper.decode(file: "SingleUserData", type: UserDetailResponse.self)
+                )
+            }
     }
 }
 
