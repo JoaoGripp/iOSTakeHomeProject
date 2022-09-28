@@ -16,6 +16,7 @@
 		F89E1B7F28E382AA00F22147 /* PeopleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89E1B7E28E382AA00F22147 /* PeopleView.swift */; };
 		F89E1B8128E38BE700F22147 /* PersonItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89E1B8028E38BE700F22147 /* PersonItemView.swift */; };
 		F89E1B8428E38CB100F22147 /* PillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89E1B8328E38CB100F22147 /* PillView.swift */; };
+		F89E1B8628E4BCA600F22147 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89E1B8528E4BCA600F22147 /* DetailView.swift */; };
 		F8F0DC4D28BB7CDD001C34EC /* iOSTakeHomeProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F0DC4C28BB7CDD001C34EC /* iOSTakeHomeProjectApp.swift */; };
 		F8F0DC5128BB7CE0001C34EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8F0DC5028BB7CE0001C34EC /* Assets.xcassets */; };
 		F8F0DC5428BB7CE0001C34EC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8F0DC5328BB7CE0001C34EC /* Preview Assets.xcassets */; };
@@ -33,6 +34,7 @@
 		F89E1B7E28E382AA00F22147 /* PeopleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleView.swift; sourceTree = "<group>"; };
 		F89E1B8028E38BE700F22147 /* PersonItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonItemView.swift; sourceTree = "<group>"; };
 		F89E1B8328E38CB100F22147 /* PillView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PillView.swift; sourceTree = "<group>"; };
+		F89E1B8528E4BCA600F22147 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		F8F0DC4928BB7CDD001C34EC /* iOSTakeHomeProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSTakeHomeProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8F0DC4C28BB7CDD001C34EC /* iOSTakeHomeProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSTakeHomeProjectApp.swift; sourceTree = "<group>"; };
 		F8F0DC5028BB7CE0001C34EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -241,6 +243,7 @@
 		F8F0DC6B28BB82E5001C34EC /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				F89E1B8528E4BCA600F22147 /* DetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -344,6 +347,7 @@
 				F8F0DC5C28BB7D46001C34EC /* Symbols.swift in Sources */,
 				F89E1B7F28E382AA00F22147 /* PeopleView.swift in Sources */,
 				F8F0DC5E28BB7F3B001C34EC /* Theme.swift in Sources */,
+				F89E1B8628E4BCA600F22147 /* DetailView.swift in Sources */,
 				F89E1B7528E2124C00F22147 /* UserDetailResponse.swift in Sources */,
 				F8F0DC4D28BB7CDD001C34EC /* iOSTakeHomeProjectApp.swift in Sources */,
 				F89E1B7728E2368F00F22147 /* UsersResponse.swift in Sources */,
