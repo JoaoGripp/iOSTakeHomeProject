@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F86337F9295CC1F7009F2DD4 /* CreateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86337F8295CC1F7009F2DD4 /* CreateView.swift */; };
+		F86337FC295CDA42009F2DD4 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86337FB295CDA42009F2DD4 /* NetworkManager.swift */; };
 		F89E1B7128E2114500F22147 /* UsersStaticData.json in Resources */ = {isa = PBXBuildFile; fileRef = F89E1B7028E2114500F22147 /* UsersStaticData.json */; };
 		F89E1B7328E2119200F22147 /* SingleUserData.json in Resources */ = {isa = PBXBuildFile; fileRef = F89E1B7228E2119200F22147 /* SingleUserData.json */; };
 		F89E1B7528E2124C00F22147 /* UserDetailResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89E1B7428E2124C00F22147 /* UserDetailResponse.swift */; };
@@ -27,6 +28,7 @@
 
 /* Begin PBXFileReference section */
 		F86337F8295CC1F7009F2DD4 /* CreateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateView.swift; sourceTree = "<group>"; };
+		F86337FB295CDA42009F2DD4 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		F89E1B7028E2114500F22147 /* UsersStaticData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = UsersStaticData.json; sourceTree = "<group>"; };
 		F89E1B7228E2119200F22147 /* SingleUserData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = SingleUserData.json; sourceTree = "<group>"; };
 		F89E1B7428E2124C00F22147 /* UserDetailResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailResponse.swift; sourceTree = "<group>"; };
@@ -57,6 +59,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F86337FA295CDA22009F2DD4 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				F86337FB295CDA42009F2DD4 /* NetworkManager.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
 		F89E1B6F28E210FD00F22147 /* JSON */ = {
 			isa = PBXGroup;
 			children = (
@@ -141,6 +151,7 @@
 		F8F0DC5F28BB8248001C34EC /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				F86337FA295CDA22009F2DD4 /* API */,
 				F89E1B8228E38C9E00F22147 /* Views */,
 				F89E1B7B28E2376800F22147 /* Mapper */,
 				F89E1B7828E2371F00F22147 /* Model */,
@@ -348,6 +359,7 @@
 				F89E1B7D28E2378000F22147 /* StaticJSONMapper.swift in Sources */,
 				F89E1B8428E38CB100F22147 /* PillView.swift in Sources */,
 				F8F0DC5C28BB7D46001C34EC /* Symbols.swift in Sources */,
+				F86337FC295CDA42009F2DD4 /* NetworkManager.swift in Sources */,
 				F89E1B7F28E382AA00F22147 /* PeopleView.swift in Sources */,
 				F8F0DC5E28BB7F3B001C34EC /* Theme.swift in Sources */,
 				F89E1B8628E4BCA600F22147 /* DetailView.swift in Sources */,
