@@ -21,7 +21,8 @@ final class PeopleViewModel: ObservableObject {
                 case .success(let response):
                     self?.users = response.data
                 case .failure(let error):
-                    print(error)
+                    self?.hasError = true
+                    self?.error = error as? NetworkingManager.NetworkingError
                 }
             }
         }
