@@ -10,6 +10,7 @@
 		F80BD19A2A62C67A00469DDD /* NewPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80BD1992A62C67A00469DDD /* NewPerson.swift */; };
 		F80BD19C2A62C6EC00469DDD /* CreateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80BD19B2A62C6EC00469DDD /* CreateViewModel.swift */; };
 		F80BD19E2A6423AB00469DDD /* CheckmarkPopoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80BD19D2A6423AB00469DDD /* CheckmarkPopoverView.swift */; };
+		F80BD1A32A642CF700469DDD /* CreateValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80BD1A22A642CF700469DDD /* CreateValidator.swift */; };
 		F86337F9295CC1F7009F2DD4 /* CreateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86337F8295CC1F7009F2DD4 /* CreateView.swift */; };
 		F86337FC295CDA42009F2DD4 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86337FB295CDA42009F2DD4 /* NetworkManager.swift */; };
 		F86337FE295D329E009F2DD4 /* PeopleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86337FD295D329E009F2DD4 /* PeopleViewModel.swift */; };
@@ -35,6 +36,7 @@
 		F80BD1992A62C67A00469DDD /* NewPerson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPerson.swift; sourceTree = "<group>"; };
 		F80BD19B2A62C6EC00469DDD /* CreateViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateViewModel.swift; sourceTree = "<group>"; };
 		F80BD19D2A6423AB00469DDD /* CheckmarkPopoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckmarkPopoverView.swift; sourceTree = "<group>"; };
+		F80BD1A22A642CF700469DDD /* CreateValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateValidator.swift; sourceTree = "<group>"; };
 		F86337F8295CC1F7009F2DD4 /* CreateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateView.swift; sourceTree = "<group>"; };
 		F86337FB295CDA42009F2DD4 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		F86337FD295D329E009F2DD4 /* PeopleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleViewModel.swift; sourceTree = "<group>"; };
@@ -69,6 +71,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F80BD19F2A642CA300469DDD /* Validator */ = {
+			isa = PBXGroup;
+			children = (
+				F80BD1A22A642CF700469DDD /* CreateValidator.swift */,
+			);
+			path = Validator;
+			sourceTree = "<group>";
+		};
 		F86337FA295CDA22009F2DD4 /* API */ = {
 			isa = PBXGroup;
 			children = (
@@ -184,6 +194,7 @@
 		F8F0DC6128BB825E001C34EC /* Create */ = {
 			isa = PBXGroup;
 			children = (
+				F80BD19F2A642CA300469DDD /* Validator */,
 				F8F0DC6A28BB82DD001C34EC /* Model */,
 				F8F0DC6928BB82D4001C34EC /* View Models */,
 				F8F0DC6828BB82CE001C34EC /* Views */,
@@ -387,6 +398,7 @@
 				F80BD19A2A62C67A00469DDD /* NewPerson.swift in Sources */,
 				F86337FE295D329E009F2DD4 /* PeopleViewModel.swift in Sources */,
 				F86337F9295CC1F7009F2DD4 /* CreateView.swift in Sources */,
+				F80BD1A32A642CF700469DDD /* CreateValidator.swift in Sources */,
 				F8633800295DD51F009F2DD4 /* DetailViewModel.swift in Sources */,
 				F89E1B7A28E2373300F22147 /* Models.swift in Sources */,
 			);
