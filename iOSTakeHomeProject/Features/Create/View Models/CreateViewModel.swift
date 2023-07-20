@@ -28,8 +28,7 @@ final class CreateViewModel: ObservableObject {
             let data = try? encoder.encode(person)
             
             NetworkingManager.shared
-                .request(methodType: .POST(data: data),
-                         "https://reqres.in/api/users?delay=5") { [weak self] res in
+                .request(.create(submissionData: data)) { [weak self] res in
                     DispatchQueue.main.async {
                         switch res {
                         case .success:

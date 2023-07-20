@@ -14,6 +14,7 @@
 		F80BD1A62A65A11A00469DDD /* HapticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80BD1A52A65A11A00469DDD /* HapticsManager.swift */; };
 		F80BD1A82A65A2F100469DDD /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80BD1A72A65A2F100469DDD /* SettingsView.swift */; };
 		F80BD1AB2A65A46D00469DDD /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80BD1AA2A65A46D00469DDD /* UserDefaults.swift */; };
+		F80BD1AD2A693B1B00469DDD /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80BD1AC2A693B1B00469DDD /* Endpoint.swift */; };
 		F86337F9295CC1F7009F2DD4 /* CreateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86337F8295CC1F7009F2DD4 /* CreateView.swift */; };
 		F86337FC295CDA42009F2DD4 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86337FB295CDA42009F2DD4 /* NetworkManager.swift */; };
 		F86337FE295D329E009F2DD4 /* PeopleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86337FD295D329E009F2DD4 /* PeopleViewModel.swift */; };
@@ -43,6 +44,7 @@
 		F80BD1A52A65A11A00469DDD /* HapticsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsManager.swift; sourceTree = "<group>"; };
 		F80BD1A72A65A2F100469DDD /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		F80BD1AA2A65A46D00469DDD /* UserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
+		F80BD1AC2A693B1B00469DDD /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
 		F86337F8295CC1F7009F2DD4 /* CreateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateView.swift; sourceTree = "<group>"; };
 		F86337FB295CDA42009F2DD4 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		F86337FD295D329E009F2DD4 /* PeopleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleViewModel.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				F86337FB295CDA42009F2DD4 /* NetworkManager.swift */,
+				F80BD1AC2A693B1B00469DDD /* Endpoint.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -427,6 +430,7 @@
 				F86337F9295CC1F7009F2DD4 /* CreateView.swift in Sources */,
 				F80BD1A32A642CF700469DDD /* CreateValidator.swift in Sources */,
 				F8633800295DD51F009F2DD4 /* DetailViewModel.swift in Sources */,
+				F80BD1AD2A693B1B00469DDD /* Endpoint.swift in Sources */,
 				F80BD1A62A65A11A00469DDD /* HapticsManager.swift in Sources */,
 				F89E1B7A28E2373300F22147 /* Models.swift in Sources */,
 			);
