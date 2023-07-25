@@ -20,6 +20,7 @@
 		F86337FC295CDA42009F2DD4 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86337FB295CDA42009F2DD4 /* NetworkManager.swift */; };
 		F86337FE295D329E009F2DD4 /* PeopleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86337FD295D329E009F2DD4 /* PeopleViewModel.swift */; };
 		F8633800295DD51F009F2DD4 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86337FF295DD51F009F2DD4 /* DetailViewModel.swift */; };
+		F88C8ACB2A6F6F7C009F7AF7 /* CreateFormValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88C8ACA2A6F6F7C009F7AF7 /* CreateFormValidator.swift */; };
 		F89E1B7128E2114500F22147 /* UsersStaticData.json in Resources */ = {isa = PBXBuildFile; fileRef = F89E1B7028E2114500F22147 /* UsersStaticData.json */; };
 		F89E1B7328E2119200F22147 /* SingleUserData.json in Resources */ = {isa = PBXBuildFile; fileRef = F89E1B7228E2119200F22147 /* SingleUserData.json */; };
 		F89E1B7528E2124C00F22147 /* UserDetailResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89E1B7428E2124C00F22147 /* UserDetailResponse.swift */; };
@@ -62,6 +63,7 @@
 		F86337FB295CDA42009F2DD4 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		F86337FD295D329E009F2DD4 /* PeopleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleViewModel.swift; sourceTree = "<group>"; };
 		F86337FF295DD51F009F2DD4 /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
+		F88C8ACA2A6F6F7C009F7AF7 /* CreateFormValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateFormValidator.swift; sourceTree = "<group>"; };
 		F89E1B7028E2114500F22147 /* UsersStaticData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = UsersStaticData.json; sourceTree = "<group>"; };
 		F89E1B7228E2119200F22147 /* SingleUserData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = SingleUserData.json; sourceTree = "<group>"; };
 		F89E1B7428E2124C00F22147 /* UserDetailResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailResponse.swift; sourceTree = "<group>"; };
@@ -126,6 +128,7 @@
 		F80BD1B32A6F0B5600469DDD /* iOSTakeHomeProjectTests */ = {
 			isa = PBXGroup;
 			children = (
+				F88C8AC92A6F6F3F009F7AF7 /* Form */,
 				F80BD1BB2A6F0B7700469DDD /* Mapper */,
 			);
 			path = iOSTakeHomeProjectTests;
@@ -146,6 +149,14 @@
 				F80BD1AC2A693B1B00469DDD /* Endpoint.swift */,
 			);
 			path = API;
+			sourceTree = "<group>";
+		};
+		F88C8AC92A6F6F3F009F7AF7 /* Form */ = {
+			isa = PBXGroup;
+			children = (
+				F88C8ACA2A6F6F7C009F7AF7 /* CreateFormValidator.swift */,
+			);
+			path = Form;
 			sourceTree = "<group>";
 		};
 		F89E1B6F28E210FD00F22147 /* JSON */ = {
@@ -478,6 +489,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F88C8ACB2A6F6F7C009F7AF7 /* CreateFormValidator.swift in Sources */,
 				F80BD1BD2A6F0BA900469DDD /* JSONMapperTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
