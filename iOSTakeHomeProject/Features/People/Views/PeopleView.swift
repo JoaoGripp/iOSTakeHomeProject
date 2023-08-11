@@ -22,7 +22,7 @@ struct PeopleView: View {
         
         if UITestingHelper.isUITesting {
             
-            let mock: NetworkingManagerImpl = UITestingHelper.isNetworkingSuccessful ? NetworkingManagerUsersResponseSuccessMock() : NetworkingManagerUsersResponseFailureMock()
+            let mock: NetworkingManagerImpl = UITestingHelper.isPeopleNetworkingSuccessful ? NetworkingManagerUsersResponseSuccessMock() : NetworkingManagerUsersResponseFailureMock()
             
             _vm = StateObject(wrappedValue: PeopleViewModel(networkingManager: mock))
             

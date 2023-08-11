@@ -21,6 +21,8 @@
 		F86337FE295D329E009F2DD4 /* PeopleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86337FD295D329E009F2DD4 /* PeopleViewModel.swift */; };
 		F8633800295DD51F009F2DD4 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86337FF295DD51F009F2DD4 /* DetailViewModel.swift */; };
 		F87FBB082A86390D0076CC5E /* PeopleFailureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87FBB072A86390D0076CC5E /* PeopleFailureUITests.swift */; };
+		F87FBB0B2A86494B0076CC5E /* DetailsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87FBB0A2A86494B0076CC5E /* DetailsUITests.swift */; };
+		F87FBB0D2A864FCB0076CC5E /* DetailsFailureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87FBB0C2A864FCB0076CC5E /* DetailsFailureUITests.swift */; };
 		F88C8ACB2A6F6F7C009F7AF7 /* CreateFormValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88C8ACA2A6F6F7C009F7AF7 /* CreateFormValidator.swift */; };
 		F88C8ACF2A714A62009F7AF7 /* NetworkingEndpointTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88C8ACE2A714A62009F7AF7 /* NetworkingEndpointTests.swift */; };
 		F88C8AD52A7AE237009F7AF7 /* NetworkingManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88C8AD42A7AE237009F7AF7 /* NetworkingManagerTests.swift */; };
@@ -92,6 +94,8 @@
 		F86337FD295D329E009F2DD4 /* PeopleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleViewModel.swift; sourceTree = "<group>"; };
 		F86337FF295DD51F009F2DD4 /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
 		F87FBB072A86390D0076CC5E /* PeopleFailureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleFailureUITests.swift; sourceTree = "<group>"; };
+		F87FBB0A2A86494B0076CC5E /* DetailsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsUITests.swift; sourceTree = "<group>"; };
+		F87FBB0C2A864FCB0076CC5E /* DetailsFailureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsFailureUITests.swift; sourceTree = "<group>"; };
 		F88C8ACA2A6F6F7C009F7AF7 /* CreateFormValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateFormValidator.swift; sourceTree = "<group>"; };
 		F88C8ACE2A714A62009F7AF7 /* NetworkingEndpointTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingEndpointTests.swift; sourceTree = "<group>"; };
 		F88C8AD12A7ADFDD009F7AF7 /* MockURLSessionProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockURLSessionProtocol.swift; sourceTree = "<group>"; };
@@ -212,6 +216,15 @@
 			path = API;
 			sourceTree = "<group>";
 		};
+		F87FBB092A8649250076CC5E /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				F87FBB0A2A86494B0076CC5E /* DetailsUITests.swift */,
+				F87FBB0C2A864FCB0076CC5E /* DetailsFailureUITests.swift */,
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
 		F88C8AC92A6F6F3F009F7AF7 /* Form */ = {
 			isa = PBXGroup;
 			children = (
@@ -303,6 +316,7 @@
 		F88C8B002A84EC6E009F7AF7 /* iOSTakeHomeProjectUITests */ = {
 			isa = PBXGroup;
 			children = (
+				F87FBB092A8649250076CC5E /* Details */,
 				F88C8B0A2A84ECEB009F7AF7 /* People */,
 			);
 			path = iOSTakeHomeProjectUITests;
@@ -738,6 +752,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F88C8B0C2A84ED18009F7AF7 /* PeopleScreenUITests.swift in Sources */,
+				F87FBB0D2A864FCB0076CC5E /* DetailsFailureUITests.swift in Sources */,
+				F87FBB0B2A86494B0076CC5E /* DetailsUITests.swift in Sources */,
 				F87FBB082A86390D0076CC5E /* PeopleFailureUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
