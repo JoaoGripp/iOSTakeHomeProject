@@ -142,6 +142,7 @@ private extension PeopleView {
                 )
         }
         .disabled(vm.isLoading)
+        .accessibilityIdentifier("createBtn")
     }
     
     var refresh: some View {
