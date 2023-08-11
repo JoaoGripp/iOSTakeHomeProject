@@ -126,6 +126,7 @@
 		F88C8B0E2A84EF8F009F7AF7 /* UITestingHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITestingHelper.swift; sourceTree = "<group>"; };
 		F88D6C8A2A867427009A6E05 /* CreateFailureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateFailureUITests.swift; sourceTree = "<group>"; };
 		F88D6C8C2A867718009A6E05 /* CreateScreenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateScreenUITests.swift; sourceTree = "<group>"; };
+		F88D6C8E2A867A80009A6E05 /* iOSTakeHomeProject.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = iOSTakeHomeProject.xctestplan; sourceTree = "<group>"; };
 		F89E1B7028E2114500F22147 /* UsersStaticData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = UsersStaticData.json; sourceTree = "<group>"; };
 		F89E1B7228E2119200F22147 /* SingleUserData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = SingleUserData.json; sourceTree = "<group>"; };
 		F89E1B7428E2124C00F22147 /* UserDetailResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailResponse.swift; sourceTree = "<group>"; };
@@ -425,6 +426,7 @@
 		F8F0DC4028BB7CDD001C34EC = {
 			isa = PBXGroup;
 			children = (
+				F88D6C8E2A867A80009A6E05 /* iOSTakeHomeProject.xctestplan */,
 				F8F0DC4B28BB7CDD001C34EC /* iOSTakeHomeProject */,
 				F80BD1B32A6F0B5600469DDD /* iOSTakeHomeProjectTests */,
 				F88C8B002A84EC6E009F7AF7 /* iOSTakeHomeProjectUITests */,

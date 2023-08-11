@@ -1,0 +1,46 @@
+{
+  "configurations" : [
+    {
+      "id" : "D16BE91C-2C5B-45EC-81C3-C3AF975F62B1",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : {
+      "targets" : [
+        {
+          "containerPath" : "container:iOSTakeHomeProject.xcodeproj",
+          "identifier" : "F8F0DC4828BB7CDD001C34EC",
+          "name" : "iOSTakeHomeProject"
+        }
+      ]
+    },
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:iOSTakeHomeProject.xcodeproj",
+      "identifier" : "F8F0DC4828BB7CDD001C34EC",
+      "name" : "iOSTakeHomeProject"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:iOSTakeHomeProject.xcodeproj",
+        "identifier" : "F80BD1B12A6F0B5600469DDD",
+        "name" : "iOSTakeHomeProjectTests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:iOSTakeHomeProject.xcodeproj",
+        "identifier" : "F88C8AFE2A84EC6E009F7AF7",
+        "name" : "iOSTakeHomeProjectUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
