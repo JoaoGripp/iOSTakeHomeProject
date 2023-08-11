@@ -1,14 +1,15 @@
 //
-//  NetworkingManagerUsersResponseFailureMock.swift
+//  NetworkingManagerUserDetailsResponseFailureMock.swift
 //  iOSTakeHomeProjectTests
 //
-//  Created by Joao Gripp on 04/08/23.
+//  Created by Joao Gripp on 08/08/23.
 //
 
-import Foundation
-@testable import iOSTakeHomeProject
+#if DEBUG
 
-class NetworkingManagerUsersResponseFailureMock: NetworkingManagerImpl {
+import Foundation
+
+class NetworkingManagerUserDetailsResponseFailureMock: NetworkingManagerImpl {
     func request<T>(session: URLSession, _ endpoint: iOSTakeHomeProject.Endpoint, type: T.Type) async throws -> T where T : Decodable, T : Encodable {
         throw NetworkingManager.NetworkingError.invalidUrl
     }
@@ -18,4 +19,7 @@ class NetworkingManagerUsersResponseFailureMock: NetworkingManagerImpl {
     }
     
     
+    
 }
+
+#endif

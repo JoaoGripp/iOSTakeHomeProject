@@ -5,8 +5,9 @@
 //  Created by Joao Gripp on 09/08/23.
 //
 
+#if DEBUG
+
 import Foundation
-@testable import iOSTakeHomeProject
 
 class NetworkingManagerCreateSuccessMock: NetworkingManagerImpl {
     func request<T>(session: URLSession, _ endpoint: iOSTakeHomeProject.Endpoint, type: T.Type) async throws -> T where T : Decodable, T : Encodable {
@@ -15,3 +16,5 @@ class NetworkingManagerCreateSuccessMock: NetworkingManagerImpl {
     
     func request(session: URLSession, _ endpoint: iOSTakeHomeProject.Endpoint) async throws {}
 }
+
+#endif

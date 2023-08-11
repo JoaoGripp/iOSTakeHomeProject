@@ -20,25 +20,28 @@
 		F86337FC295CDA42009F2DD4 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86337FB295CDA42009F2DD4 /* NetworkManager.swift */; };
 		F86337FE295D329E009F2DD4 /* PeopleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86337FD295D329E009F2DD4 /* PeopleViewModel.swift */; };
 		F8633800295DD51F009F2DD4 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86337FF295DD51F009F2DD4 /* DetailViewModel.swift */; };
+		F87FBB082A86390D0076CC5E /* PeopleFailureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87FBB072A86390D0076CC5E /* PeopleFailureUITests.swift */; };
 		F88C8ACB2A6F6F7C009F7AF7 /* CreateFormValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88C8ACA2A6F6F7C009F7AF7 /* CreateFormValidator.swift */; };
 		F88C8ACF2A714A62009F7AF7 /* NetworkingEndpointTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88C8ACE2A714A62009F7AF7 /* NetworkingEndpointTests.swift */; };
-		F88C8AD22A7ADFDD009F7AF7 /* MockURLSessionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88C8AD12A7ADFDD009F7AF7 /* MockURLSessionProtocol.swift */; };
 		F88C8AD52A7AE237009F7AF7 /* NetworkingManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88C8AD42A7AE237009F7AF7 /* NetworkingManagerTests.swift */; };
 		F88C8AD82A7C5928009F7AF7 /* PeopleViewModelSuccessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88C8AD72A7C5928009F7AF7 /* PeopleViewModelSuccessTests.swift */; };
-		F88C8ADA2A7C5AB1009F7AF7 /* NetworkingManagerUsersResponseSuccessMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88C8AD92A7C5AB1009F7AF7 /* NetworkingManagerUsersResponseSuccessMock.swift */; };
 		F88C8ADC2A7C7244009F7AF7 /* PeopleViewModelFailureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88C8ADB2A7C7244009F7AF7 /* PeopleViewModelFailureTests.swift */; };
-		F88C8ADE2A7C7296009F7AF7 /* NetworkingManagerUsersResponseFailureMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88C8ADD2A7C7296009F7AF7 /* NetworkingManagerUsersResponseFailureMock.swift */; };
-		F88C8AE22A8248D4009F7AF7 /* NetworkingManagerUserDetailsResponseSuccessMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88C8AE12A8248D4009F7AF7 /* NetworkingManagerUserDetailsResponseSuccessMock.swift */; };
-		F88C8AE42A8249C8009F7AF7 /* NetworkingManagerUserDetailsResponseFailureMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88C8AE32A8249C8009F7AF7 /* NetworkingManagerUserDetailsResponseFailureMock.swift */; };
 		F88C8AE72A824A5E009F7AF7 /* DetailsViewModelSuccessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88C8AE62A824A5E009F7AF7 /* DetailsViewModelSuccessTests.swift */; };
 		F88C8AE92A824E1C009F7AF7 /* DetailsViewModelFailureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88C8AE82A824E1B009F7AF7 /* DetailsViewModelFailureTests.swift */; };
-		F88C8AEC2A83D1D4009F7AF7 /* NetworkingManagerCreateSuccessMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88C8AEB2A83D1D4009F7AF7 /* NetworkingManagerCreateSuccessMock.swift */; };
-		F88C8AF02A83D2E7009F7AF7 /* CreateValidatorSuccessMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88C8AEF2A83D2E7009F7AF7 /* CreateValidatorSuccessMock.swift */; };
 		F88C8AF22A83D34F009F7AF7 /* CreateViewModelSuccessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88C8AF12A83D34F009F7AF7 /* CreateViewModelSuccessTests.swift */; };
-		F88C8AF42A83D563009F7AF7 /* CreateValidatorFailureMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88C8AF32A83D563009F7AF7 /* CreateValidatorFailureMock.swift */; };
 		F88C8AF62A83D601009F7AF7 /* CreateViewModelValidationFailureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88C8AF52A83D601009F7AF7 /* CreateViewModelValidationFailureTests.swift */; };
-		F88C8AF82A83D8BE009F7AF7 /* NetworkingManagerCreateFailureMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88C8AF72A83D8BE009F7AF7 /* NetworkingManagerCreateFailureMock.swift */; };
 		F88C8AFA2A83D9EC009F7AF7 /* CreateViewModelFailureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88C8AF92A83D9EC009F7AF7 /* CreateViewModelFailureTests.swift */; };
+		F88C8B0C2A84ED18009F7AF7 /* PeopleScreenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88C8B0B2A84ED18009F7AF7 /* PeopleScreenUITests.swift */; };
+		F88C8B0F2A84EF8F009F7AF7 /* UITestingHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88C8B0E2A84EF8F009F7AF7 /* UITestingHelper.swift */; };
+		F88C8B132A84F3D6009F7AF7 /* NetworkingManagerCreateSuccessMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88C8AEB2A83D1D4009F7AF7 /* NetworkingManagerCreateSuccessMock.swift */; };
+		F88C8B142A84F3DD009F7AF7 /* NetworkingManagerCreateFailureMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88C8AF72A83D8BE009F7AF7 /* NetworkingManagerCreateFailureMock.swift */; };
+		F88C8B152A84F3ED009F7AF7 /* NetworkingManagerUserDetailsResponseSuccessMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88C8AE12A8248D4009F7AF7 /* NetworkingManagerUserDetailsResponseSuccessMock.swift */; };
+		F88C8B162A84F3F5009F7AF7 /* NetworkingManagerUserDetailsResponseFailureMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88C8AE32A8249C8009F7AF7 /* NetworkingManagerUserDetailsResponseFailureMock.swift */; };
+		F88C8B172A84F3FC009F7AF7 /* MockURLSessionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88C8AD12A7ADFDD009F7AF7 /* MockURLSessionProtocol.swift */; };
+		F88C8B182A84F41E009F7AF7 /* NetworkingManagerUsersResponseSuccessMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88C8AD92A7C5AB1009F7AF7 /* NetworkingManagerUsersResponseSuccessMock.swift */; };
+		F88C8B192A84F427009F7AF7 /* NetworkingManagerUsersResponseFailureMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88C8ADD2A7C7296009F7AF7 /* NetworkingManagerUsersResponseFailureMock.swift */; };
+		F88C8B1A2A84F42E009F7AF7 /* CreateValidatorSuccessMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88C8AEF2A83D2E7009F7AF7 /* CreateValidatorSuccessMock.swift */; };
+		F88C8B1B2A84F435009F7AF7 /* CreateValidatorFailureMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88C8AF32A83D563009F7AF7 /* CreateValidatorFailureMock.swift */; };
 		F89E1B7128E2114500F22147 /* UsersStaticData.json in Resources */ = {isa = PBXBuildFile; fileRef = F89E1B7028E2114500F22147 /* UsersStaticData.json */; };
 		F89E1B7328E2119200F22147 /* SingleUserData.json in Resources */ = {isa = PBXBuildFile; fileRef = F89E1B7228E2119200F22147 /* SingleUserData.json */; };
 		F89E1B7528E2124C00F22147 /* UserDetailResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89E1B7428E2124C00F22147 /* UserDetailResponse.swift */; };
@@ -64,6 +67,13 @@
 			remoteGlobalIDString = F8F0DC4828BB7CDD001C34EC;
 			remoteInfo = iOSTakeHomeProject;
 		};
+		F88C8B052A84EC6E009F7AF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8F0DC4128BB7CDD001C34EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8F0DC4828BB7CDD001C34EC;
+			remoteInfo = iOSTakeHomeProject;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -81,6 +91,7 @@
 		F86337FB295CDA42009F2DD4 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		F86337FD295D329E009F2DD4 /* PeopleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleViewModel.swift; sourceTree = "<group>"; };
 		F86337FF295DD51F009F2DD4 /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
+		F87FBB072A86390D0076CC5E /* PeopleFailureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleFailureUITests.swift; sourceTree = "<group>"; };
 		F88C8ACA2A6F6F7C009F7AF7 /* CreateFormValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateFormValidator.swift; sourceTree = "<group>"; };
 		F88C8ACE2A714A62009F7AF7 /* NetworkingEndpointTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingEndpointTests.swift; sourceTree = "<group>"; };
 		F88C8AD12A7ADFDD009F7AF7 /* MockURLSessionProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockURLSessionProtocol.swift; sourceTree = "<group>"; };
@@ -100,6 +111,9 @@
 		F88C8AF52A83D601009F7AF7 /* CreateViewModelValidationFailureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateViewModelValidationFailureTests.swift; sourceTree = "<group>"; };
 		F88C8AF72A83D8BE009F7AF7 /* NetworkingManagerCreateFailureMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingManagerCreateFailureMock.swift; sourceTree = "<group>"; };
 		F88C8AF92A83D9EC009F7AF7 /* CreateViewModelFailureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateViewModelFailureTests.swift; sourceTree = "<group>"; };
+		F88C8AFF2A84EC6E009F7AF7 /* iOSTakeHomeProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSTakeHomeProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F88C8B0B2A84ED18009F7AF7 /* PeopleScreenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleScreenUITests.swift; sourceTree = "<group>"; };
+		F88C8B0E2A84EF8F009F7AF7 /* UITestingHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITestingHelper.swift; sourceTree = "<group>"; };
 		F89E1B7028E2114500F22147 /* UsersStaticData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = UsersStaticData.json; sourceTree = "<group>"; };
 		F89E1B7228E2119200F22147 /* SingleUserData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = SingleUserData.json; sourceTree = "<group>"; };
 		F89E1B7428E2124C00F22147 /* UserDetailResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailResponse.swift; sourceTree = "<group>"; };
@@ -121,6 +135,13 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		F80BD1AF2A6F0B5600469DDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F88C8AFC2A84EC6E009F7AF7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -203,7 +224,6 @@
 			isa = PBXGroup;
 			children = (
 				F88C8AD32A7AE20C009F7AF7 /* NetworkingManager */,
-				F88C8AD02A7ADF98009F7AF7 /* Mocks */,
 				F88C8ACD2A714A32009F7AF7 /* Endpoint */,
 			);
 			path = Networking;
@@ -215,17 +235,6 @@
 				F88C8ACE2A714A62009F7AF7 /* NetworkingEndpointTests.swift */,
 			);
 			path = Endpoint;
-			sourceTree = "<group>";
-		};
-		F88C8AD02A7ADF98009F7AF7 /* Mocks */ = {
-			isa = PBXGroup;
-			children = (
-				F88C8AEA2A83D19A009F7AF7 /* Create */,
-				F88C8AE02A824899009F7AF7 /* UserDetails */,
-				F88C8AD12A7ADFDD009F7AF7 /* MockURLSessionProtocol.swift */,
-				F88C8ADF2A824886009F7AF7 /* UsersResponse */,
-			);
-			path = Mocks;
 			sourceTree = "<group>";
 		};
 		F88C8AD32A7AE20C009F7AF7 /* NetworkingManager */ = {
@@ -284,7 +293,6 @@
 		F88C8AED2A83D296009F7AF7 /* Create */ = {
 			isa = PBXGroup;
 			children = (
-				F88C8AEE2A83D2C1009F7AF7 /* Mocks */,
 				F88C8AF12A83D34F009F7AF7 /* CreateViewModelSuccessTests.swift */,
 				F88C8AF52A83D601009F7AF7 /* CreateViewModelValidationFailureTests.swift */,
 				F88C8AF92A83D9EC009F7AF7 /* CreateViewModelFailureTests.swift */,
@@ -292,13 +300,58 @@
 			path = Create;
 			sourceTree = "<group>";
 		};
-		F88C8AEE2A83D2C1009F7AF7 /* Mocks */ = {
+		F88C8B002A84EC6E009F7AF7 /* iOSTakeHomeProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F88C8B0A2A84ECEB009F7AF7 /* People */,
+			);
+			path = iOSTakeHomeProjectUITests;
+			sourceTree = "<group>";
+		};
+		F88C8B0A2A84ECEB009F7AF7 /* People */ = {
+			isa = PBXGroup;
+			children = (
+				F88C8B0B2A84ED18009F7AF7 /* PeopleScreenUITests.swift */,
+				F87FBB072A86390D0076CC5E /* PeopleFailureUITests.swift */,
+			);
+			path = People;
+			sourceTree = "<group>";
+		};
+		F88C8B0D2A84EF76009F7AF7 /* UITesting */ = {
+			isa = PBXGroup;
+			children = (
+				F88C8B0E2A84EF8F009F7AF7 /* UITestingHelper.swift */,
+			);
+			path = UITesting;
+			sourceTree = "<group>";
+		};
+		F88C8B102A84F24C009F7AF7 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				F88C8B122A84F2BF009F7AF7 /* Networking */,
+				F88C8B112A84F256009F7AF7 /* Create */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		F88C8B112A84F256009F7AF7 /* Create */ = {
 			isa = PBXGroup;
 			children = (
 				F88C8AEF2A83D2E7009F7AF7 /* CreateValidatorSuccessMock.swift */,
 				F88C8AF32A83D563009F7AF7 /* CreateValidatorFailureMock.swift */,
 			);
-			path = Mocks;
+			path = Create;
+			sourceTree = "<group>";
+		};
+		F88C8B122A84F2BF009F7AF7 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				F88C8AEA2A83D19A009F7AF7 /* Create */,
+				F88C8AE02A824899009F7AF7 /* UserDetails */,
+				F88C8AD12A7ADFDD009F7AF7 /* MockURLSessionProtocol.swift */,
+				F88C8ADF2A824886009F7AF7 /* UsersResponse */,
+			);
+			path = Networking;
 			sourceTree = "<group>";
 		};
 		F89E1B6F28E210FD00F22147 /* JSON */ = {
@@ -340,6 +393,7 @@
 			children = (
 				F8F0DC4B28BB7CDD001C34EC /* iOSTakeHomeProject */,
 				F80BD1B32A6F0B5600469DDD /* iOSTakeHomeProjectTests */,
+				F88C8B002A84EC6E009F7AF7 /* iOSTakeHomeProjectUITests */,
 				F8F0DC4A28BB7CDD001C34EC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -349,6 +403,7 @@
 			children = (
 				F8F0DC4928BB7CDD001C34EC /* iOSTakeHomeProject.app */,
 				F80BD1B22A6F0B5600469DDD /* iOSTakeHomeProjectTests.xctest */,
+				F88C8AFF2A84EC6E009F7AF7 /* iOSTakeHomeProjectUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -356,6 +411,8 @@
 		F8F0DC4B28BB7CDD001C34EC /* iOSTakeHomeProject */ = {
 			isa = PBXGroup;
 			children = (
+				F88C8B102A84F24C009F7AF7 /* Mocks */,
+				F88C8B0D2A84EF76009F7AF7 /* UITesting */,
 				F8F0DC7128BB879A001C34EC /* Info.plist */,
 				F8F0DC6028BB8254001C34EC /* Features */,
 				F8F0DC5F28BB8248001C34EC /* Base */,
@@ -550,6 +607,24 @@
 			productReference = F80BD1B22A6F0B5600469DDD /* iOSTakeHomeProjectTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		F88C8AFE2A84EC6E009F7AF7 /* iOSTakeHomeProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F88C8B072A84EC6E009F7AF7 /* Build configuration list for PBXNativeTarget "iOSTakeHomeProjectUITests" */;
+			buildPhases = (
+				F88C8AFB2A84EC6E009F7AF7 /* Sources */,
+				F88C8AFC2A84EC6E009F7AF7 /* Frameworks */,
+				F88C8AFD2A84EC6E009F7AF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F88C8B062A84EC6E009F7AF7 /* PBXTargetDependency */,
+			);
+			name = iOSTakeHomeProjectUITests;
+			productName = iOSTakeHomeProjectUITests;
+			productReference = F88C8AFF2A84EC6E009F7AF7 /* iOSTakeHomeProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		F8F0DC4828BB7CDD001C34EC /* iOSTakeHomeProject */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F8F0DC5728BB7CE0001C34EC /* Build configuration list for PBXNativeTarget "iOSTakeHomeProject" */;
@@ -581,6 +656,11 @@
 						CreatedOnToolsVersion = 14.3.1;
 						TestTargetID = F8F0DC4828BB7CDD001C34EC;
 					};
+					F88C8AFE2A84EC6E009F7AF7 = {
+						CreatedOnToolsVersion = 14.3.1;
+						LastSwiftMigration = 1430;
+						TestTargetID = F8F0DC4828BB7CDD001C34EC;
+					};
 					F8F0DC4828BB7CDD001C34EC = {
 						CreatedOnToolsVersion = 13.4.1;
 					};
@@ -601,12 +681,20 @@
 			targets = (
 				F8F0DC4828BB7CDD001C34EC /* iOSTakeHomeProject */,
 				F80BD1B12A6F0B5600469DDD /* iOSTakeHomeProjectTests */,
+				F88C8AFE2A84EC6E009F7AF7 /* iOSTakeHomeProjectUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		F80BD1B02A6F0B5600469DDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F88C8AFD2A84EC6E009F7AF7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -633,24 +721,24 @@
 			files = (
 				F88C8ADC2A7C7244009F7AF7 /* PeopleViewModelFailureTests.swift in Sources */,
 				F88C8AD52A7AE237009F7AF7 /* NetworkingManagerTests.swift in Sources */,
-				F88C8AF82A83D8BE009F7AF7 /* NetworkingManagerCreateFailureMock.swift in Sources */,
 				F88C8AE92A824E1C009F7AF7 /* DetailsViewModelFailureTests.swift in Sources */,
-				F88C8AEC2A83D1D4009F7AF7 /* NetworkingManagerCreateSuccessMock.swift in Sources */,
-				F88C8AE22A8248D4009F7AF7 /* NetworkingManagerUserDetailsResponseSuccessMock.swift in Sources */,
-				F88C8AF42A83D563009F7AF7 /* CreateValidatorFailureMock.swift in Sources */,
 				F88C8ACB2A6F6F7C009F7AF7 /* CreateFormValidator.swift in Sources */,
 				F80BD1BD2A6F0BA900469DDD /* JSONMapperTests.swift in Sources */,
-				F88C8AF02A83D2E7009F7AF7 /* CreateValidatorSuccessMock.swift in Sources */,
 				F88C8AF22A83D34F009F7AF7 /* CreateViewModelSuccessTests.swift in Sources */,
-				F88C8ADA2A7C5AB1009F7AF7 /* NetworkingManagerUsersResponseSuccessMock.swift in Sources */,
 				F88C8AF62A83D601009F7AF7 /* CreateViewModelValidationFailureTests.swift in Sources */,
 				F88C8AD82A7C5928009F7AF7 /* PeopleViewModelSuccessTests.swift in Sources */,
 				F88C8AE72A824A5E009F7AF7 /* DetailsViewModelSuccessTests.swift in Sources */,
-				F88C8AD22A7ADFDD009F7AF7 /* MockURLSessionProtocol.swift in Sources */,
-				F88C8AE42A8249C8009F7AF7 /* NetworkingManagerUserDetailsResponseFailureMock.swift in Sources */,
 				F88C8AFA2A83D9EC009F7AF7 /* CreateViewModelFailureTests.swift in Sources */,
 				F88C8ACF2A714A62009F7AF7 /* NetworkingEndpointTests.swift in Sources */,
-				F88C8ADE2A7C7296009F7AF7 /* NetworkingManagerUsersResponseFailureMock.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F88C8AFB2A84EC6E009F7AF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F88C8B0C2A84ED18009F7AF7 /* PeopleScreenUITests.swift in Sources */,
+				F87FBB082A86390D0076CC5E /* PeopleFailureUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -658,22 +746,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F88C8B142A84F3DD009F7AF7 /* NetworkingManagerCreateFailureMock.swift in Sources */,
 				F80BD1A82A65A2F100469DDD /* SettingsView.swift in Sources */,
 				F80BD19E2A6423AB00469DDD /* CheckmarkPopoverView.swift in Sources */,
 				F89E1B7D28E2378000F22147 /* StaticJSONMapper.swift in Sources */,
+				F88C8B192A84F427009F7AF7 /* NetworkingManagerUsersResponseFailureMock.swift in Sources */,
 				F89E1B8428E38CB100F22147 /* PillView.swift in Sources */,
+				F88C8B162A84F3F5009F7AF7 /* NetworkingManagerUserDetailsResponseFailureMock.swift in Sources */,
+				F88C8B0F2A84EF8F009F7AF7 /* UITestingHelper.swift in Sources */,
+				F88C8B172A84F3FC009F7AF7 /* MockURLSessionProtocol.swift in Sources */,
 				F8F0DC5C28BB7D46001C34EC /* Symbols.swift in Sources */,
 				F80BD19C2A62C6EC00469DDD /* CreateViewModel.swift in Sources */,
 				F86337FC295CDA42009F2DD4 /* NetworkManager.swift in Sources */,
+				F88C8B182A84F41E009F7AF7 /* NetworkingManagerUsersResponseSuccessMock.swift in Sources */,
 				F89E1B7F28E382AA00F22147 /* PeopleView.swift in Sources */,
 				F8F0DC5E28BB7F3B001C34EC /* Theme.swift in Sources */,
+				F88C8B1B2A84F435009F7AF7 /* CreateValidatorFailureMock.swift in Sources */,
 				F89E1B8628E4BCA600F22147 /* DetailView.swift in Sources */,
+				F88C8B1A2A84F42E009F7AF7 /* CreateValidatorSuccessMock.swift in Sources */,
+				F88C8B132A84F3D6009F7AF7 /* NetworkingManagerCreateSuccessMock.swift in Sources */,
 				F89E1B7528E2124C00F22147 /* UserDetailResponse.swift in Sources */,
 				F8F0DC4D28BB7CDD001C34EC /* iOSTakeHomeProjectApp.swift in Sources */,
 				F89E1B7728E2368F00F22147 /* UsersResponse.swift in Sources */,
 				F89E1B8128E38BE700F22147 /* PersonItemView.swift in Sources */,
 				F80BD1AB2A65A46D00469DDD /* UserDefaults.swift in Sources */,
 				F80BD19A2A62C67A00469DDD /* NewPerson.swift in Sources */,
+				F88C8B152A84F3ED009F7AF7 /* NetworkingManagerUserDetailsResponseSuccessMock.swift in Sources */,
 				F86337FE295D329E009F2DD4 /* PeopleViewModel.swift in Sources */,
 				F86337F9295CC1F7009F2DD4 /* CreateView.swift in Sources */,
 				F80BD1A32A642CF700469DDD /* CreateValidator.swift in Sources */,
@@ -691,6 +789,11 @@
 			isa = PBXTargetDependency;
 			target = F8F0DC4828BB7CDD001C34EC /* iOSTakeHomeProject */;
 			targetProxy = F80BD1B62A6F0B5600469DDD /* PBXContainerItemProxy */;
+		};
+		F88C8B062A84EC6E009F7AF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8F0DC4828BB7CDD001C34EC /* iOSTakeHomeProject */;
+			targetProxy = F88C8B052A84EC6E009F7AF7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -732,6 +835,47 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSTakeHomeProject.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iOSTakeHomeProject";
+			};
+			name = Release;
+		};
+		F88C8B082A84EC6E009F7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = EKZMJ583Y3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.CRG.iOSTakeHomeProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iOSTakeHomeProject;
+			};
+			name = Debug;
+		};
+		F88C8B092A84EC6E009F7AF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = EKZMJ583Y3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.CRG.iOSTakeHomeProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iOSTakeHomeProject;
 			};
 			name = Release;
 		};
@@ -915,6 +1059,15 @@
 			buildConfigurations = (
 				F80BD1B92A6F0B5600469DDD /* Debug */,
 				F80BD1BA2A6F0B5600469DDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F88C8B072A84EC6E009F7AF7 /* Build configuration list for PBXNativeTarget "iOSTakeHomeProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F88C8B082A84EC6E009F7AF7 /* Debug */,
+				F88C8B092A84EC6E009F7AF7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
